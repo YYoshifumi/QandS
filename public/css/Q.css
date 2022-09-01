@@ -1,0 +1,67 @@
+.all {
+    width: 100%;
+
+}
+
+.side-bar {
+    position: fixed;
+    text-align: center;
+    margin: 3% 1% 5% 3%;
+}
+
+.side-bar-button a,
+.side-bar-button form {
+    margin-top: 15%;
+}
+
+.LOGOUT {
+    margin-top: 40%;
+}
+
+.q-contents {
+    padding: 5% 5% 10% 20%;
+}
+
+.Q-button {
+    margin-left: 65%;
+    display: flex;
+}
+
+.switch {
+    margin-left: 5%;
+}
+
+
+i {
+    text-align: center;
+}
+
+
+
+.bi-heart-fill {
+    display: block;
+    width: 40px;
+    color: #385096;
+    padding: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.click {
+    color: red;
+}
+
+
+.form {
+    width: 100%;
+    text-align: center;
+}
