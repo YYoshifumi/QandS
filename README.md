@@ -31,4 +31,4 @@ Xampp/MYSQL/PHP/HTML/CSS/Javascript
 
 データベース：question-app
 
-お使いのphpMyAdminに上のデータベースを作り、入っているDB.sqlをインポー（migration））していただければお使いいただます。
+お使いのphpMyAdminに上のデータベースを作り、入っているDB.sqlをインポー（migration））していただければお使いいただけます。
