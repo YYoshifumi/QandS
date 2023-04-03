@@ -1,17 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="{{asset('js/app.js') }}"></script>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/signin.css') }}">
-    <title> 質問編集画面</title>
-</head>
+<!-- head -->
 
 <body class="text-center">
+    <!-- sidemenu -->
     <main class="form-signin">
         <div class="form">
             <div class="col-md-8 col-md-offset-2">
@@ -31,8 +24,6 @@
                     </div>
 
                     <div class="form-group">
-                        <!-- <label for="content"></label> -->
-
                         <label for="content">
                             内容
                         </label>

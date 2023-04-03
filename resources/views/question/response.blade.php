@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="{{asset('js/app.js') }}"></script>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/Q.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/signin.css') }}">
-    <title>投稿画面</title>
-</head>
+<!-- head -->
 
 <body class="text-center">
     <main class="form-signin">
-
-
-
         <div class="">
 
             <form method="post" action="{{route('solution')}}" onSubmit="return checkSubmit()">
@@ -24,7 +12,7 @@
                 <h2>返信フォーム</h2>
 
                 <div class="form-group">
-                    <!-- <label for="content"></label> -->
+                
 
                     <label>質問</label>
                     <h3>{{$Rt=$R["title"]}}
@@ -57,7 +45,7 @@
             <table class="table table-hover table-primary ">
                 <thead>
                     <tr>
-                        <!-- <th scope="col">No</th> -->
+                        
                         @can('admin')
                         <th scope="col">Name</th>
                         <th scope="col">ID</th>
@@ -73,7 +61,7 @@
                 <tbody>
                     @foreach($Rlist as $rlist)
                     <tr>
-                        <!-- <th>{{$rlist->id}}</th> -->
+                        
                         @can('admin')
                         <td>{{$rlist->name}}</td>
                         <td>ID:{{$rlist->user_id}}</td>

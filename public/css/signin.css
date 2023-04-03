@@ -37,3 +37,17 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+ul{
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+li{
+  text-align: center;
+  padding-left: 2%;
+}
+
+li.alert{
+  --bs-alert-padding-x: 4%;
+}

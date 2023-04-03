@@ -49,7 +49,6 @@ class AuthController extends Controller
     // 登録画面遷移
     public function entry()
     {
-        // dd();
         return view('question-app.admin.userentry');
     }
 
