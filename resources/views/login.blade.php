@@ -52,6 +52,7 @@
         </form>
         <p>Passwordを忘れた方は
           <a href="{{route('forget')}}">こちら</a>
+          
         </p>
   </main>
 
