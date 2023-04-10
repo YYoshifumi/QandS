@@ -20,3 +20,7 @@ Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::post('/forget', [AuthController::class, 'forget'])->name('forget');
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
+Route::get('/Top', [AuthController::class, 'top'])->name('Top');
+Route::get('/Question', [QuestionController::class, 'question'])->name('Question');
+Route::get('/Entry', [UserController::class, 'entry'])->name('Entry');
+Route::get('/List', [UserController::class, 'list'])->name('List');

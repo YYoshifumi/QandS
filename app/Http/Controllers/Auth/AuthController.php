@@ -23,7 +23,10 @@ class AuthController extends Controller
     {
         return view('login');
     }
-
+    public function top()
+    {
+        return view('question.Top.top');
+    }
 
     public function forget()
     {
@@ -37,7 +40,7 @@ class AuthController extends Controller
 
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
-            return redirect('admin');
+            return redirect('Top');
         }
 
         return back()->withErrors([

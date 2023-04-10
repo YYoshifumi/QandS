@@ -13,4 +13,9 @@ use Illuminate\Support\Facades\DB;
 class QuestionController extends Controller
 {
 
+    public function question()
+    {
+        return view('question.user.Qusetion');
+    }
+
 }
